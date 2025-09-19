@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Frank Web services — Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo"
+          >Franky <span class="accent">Web Services</span></a
+        >
+        <button
+          id="navToggle4"
+          class="nav-toggle"
+          aria-controls="main-nav-4"
+          aria-expanded="false"
+        >
+          ☰<span class="sr-only">Open menu</span>
+        </button>
+        <nav id="main-nav-4" class="nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Contact Us</h1>
+      <form id="contactForm" novalidate>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required minlength="2" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          required
+          minlength="10"
+        ></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+        <p id="formMsg" aria-live="polite"></p>
+      </form>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year4"></span> FrankyWebServices</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

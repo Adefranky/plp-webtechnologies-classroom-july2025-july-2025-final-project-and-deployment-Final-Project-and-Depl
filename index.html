@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Franky Web Services — Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo"
+          >Franky<span class="accent">Web Services</span></a
+        >
+        <button
+          id="navToggle"
+          class="nav-toggle"
+          aria-controls="main-nav"
+          aria-expanded="false"
+        >
+          ☰<span class="sr-only">Open menu</span>
+        </button>
+        <nav id="main-nav" class="nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>We build clean, fast, responsive websites.</h1>
+          <p class="lead">
+            Professional web design & development for small businesses and
+            personal brands.
+          </p>
+          <a href="services.html" class="btn">See Services</a>
+        </div>
+      </section>
+
+      <section class="features container">
+        <article class="card" data-anim>
+          <h3>Responsive Design</h3>
+          <p>Looks great on mobile and desktop.</p>
+        </article>
+        <article class="card" data-anim>
+          <h3>Performance</h3>
+          <p>Optimized images and minimal payload.</p>
+        </article>
+        <article class="card" data-anim>
+          <h3>Accessibility</h3>
+          <p>Semantic HTML and keyboard-friendly navigation.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          &copy; <span id="year"></span> FrankyWebServices — Built with HTML,
+          CSS & JavaScript
+        </p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

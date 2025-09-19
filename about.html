@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Franky Web services — About</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header is same markup as index; copy/paste for each page or use server includes for DRY -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo"
+          >Franky<span class="accent">Web services</span></a
+        >
+        <button
+          id="navToggle2"
+          class="nav-toggle"
+          aria-controls="main-nav-2"
+          aria-expanded="false"
+        >
+          ☰<span class="sr-only">Open menu</span>
+        </button>
+        <nav id="main-nav-2" class="nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>About Us</h1>
+      <p>
+        We are a small web studio focused on clean UI and solid UX. We use
+        modern technology stacks and languages to build robust, effective,
+        efficient and scalable solutions for all problems.
+      </p>
+
+      <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML5 & Accessibility</li>
+          <li>Responsive CSS (Flexbox & Grid)</li>
+          <li>JavaScript for interactivity</li>
+          <li>Typescript</li>
+          <li>Angular Framework</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year2"></span> Franky Web Services</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
