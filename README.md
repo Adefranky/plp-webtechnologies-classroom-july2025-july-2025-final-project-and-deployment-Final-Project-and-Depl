@@ -13,6 +13,9 @@ multipage-website/
 ├── README.md            # Documentation
 
 
+
+
+
 # Multipage Website Final Project
 
 This project was created to fulfill the **PLP Web Technologies Final Assignment**.  
@@ -47,9 +50,7 @@ The website is designed as a **portfolio/product showcase** with clear navigatio
 
 ## 🚀 Deployment
 The live website is deployed on:  
-👉 [Live Demo URL](https://your-username.github.io/plp-final-multipage-website/)  
-
-(Replace with Netlify or Vercel URL if you prefer.)
+👉 (https://final-projectdeployment.netlify.app/) 
 
 ---
 
